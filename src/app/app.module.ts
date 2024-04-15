@@ -8,6 +8,7 @@ import { HomeComponent } from './components/pages/home/home.component';
 import { StarRatingComponent } from './components/partials/star-rating/star-rating.component';
 import { SearchComponent } from './components/partials/search/search.component';
 import { TagComponent } from './components/partials/tag/tag.component';
+import { FoodPageComponent } from './components/pages/food-page/food-page.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +16,8 @@ import { TagComponent } from './components/partials/tag/tag.component';
     HomeComponent,
     StarRatingComponent,
     SearchComponent,
-    TagComponent
+    TagComponent,
+    FoodPageComponent
   ],
   imports: [
     BrowserModule,
