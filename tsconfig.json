@@ -3,7 +3,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "outDir": "./dist/out-tsc",
-    "strict": true,
+    "strict": false,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": false, // nếu params k có thì k hiện vạch đỏ code dòng 15 home.ts
     "noImplicitReturns": true,
