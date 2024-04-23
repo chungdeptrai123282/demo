@@ -68,7 +68,7 @@ export const sample_foods:Food[]=[
     tags: ['FastFood', 'Pizza', 'Lunch'],
   },
 ]
-export const sample_tags:Tag[  ]=[
+export const sample_tags:Tag[]=[
   {name:'All',count:6},
   {name:'FastFood',count:3},
   {name:'Pizza',count:1},
