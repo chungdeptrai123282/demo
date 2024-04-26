@@ -18,8 +18,11 @@
     "@angular/platform-browser": "^17.3.5",
     "@angular/platform-browser-dynamic": "^17.3.5",
     "@angular/router": "^17.3.5",
+    "next": "^14.2.2",
     "ng-starrating": "^1.0.20",
-    "ngx-toastr": "^16.2.0",
+    "ngx-toastr": "^11.3.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rxjs": "^7.8.1",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
@@ -29,5 +32,7 @@
     "@angular/cli": "^17.3.5",
     "@angular/compiler-cli": "^17.3.5",
     "typescript": "~5.4.2"
-  }
+  },
+  "type": "module",
+  "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points"
 }
